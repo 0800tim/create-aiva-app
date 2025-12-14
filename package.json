@@ -1,0 +1,56 @@
+{
+  "name": "create-aiva-app",
+  "version": "0.1.0",
+  "description": "CLI to scaffold AIVA-powered subscription commerce apps",
+  "main": "dist/index.js",
+  "bin": {
+    "create-aiva-app": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "aiva",
+    "create-app",
+    "cli",
+    "shopify",
+    "subscription",
+    "pwa",
+    "nextjs",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Growth Spurt Ltd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0800tim/create-aiva-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0800tim/create-aiva-app/issues"
+  },
+  "homepage": "https://github.com/0800tim/create-aiva-app#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "degit": "^2.8.4",
+    "inquirer": "^9.2.12",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
