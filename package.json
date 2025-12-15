@@ -1,5 +1,5 @@
 {
-  "name": "create-aiva-app",
+  "name": "@getaiva/create-app",
   "version": "0.1.0",
   "description": "CLI to scaffold AIVA-powered subscription commerce apps",
   "main": "dist/index.js",

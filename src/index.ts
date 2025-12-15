@@ -73,6 +73,11 @@ async function main() {
       }
 
       // Validate project name
+      if (!projectName) {
+        console.error(chalk.red('\n  Error: Project name is required\n'));
+        process.exit(1);
+      }
+
       if (fs.existsSync(projectName)) {
         console.error(chalk.red(`\n  Error: Directory "${projectName}" already exists\n`));
         process.exit(1);
