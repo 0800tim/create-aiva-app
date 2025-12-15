@@ -32,7 +32,7 @@ A production-ready customer-facing portal for subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-portal --template customer-portal
+npx @getaiva/create-app my-portal --template customer-portal
 ```
 
 ---
@@ -68,7 +68,7 @@ Admin dashboard for managing subscriptions and customers.
 ### Usage
 
 ```bash
-npx create-aiva-app my-dashboard --template merchant-dashboard
+npx @getaiva/create-app my-dashboard --template merchant-dashboard
 ```
 
 ---
@@ -101,7 +101,7 @@ Shopify theme components for subscription features.
 ### Usage
 
 ```bash
-npx create-aiva-app my-widgets --template liquid-widgets
+npx @getaiva/create-app my-widgets --template liquid-widgets
 ```
 
 ---
@@ -125,5 +125,5 @@ Templates are Git repositories that get cloned via `degit`. To create your own:
 3. Use with `--template` flag pointing to your repo:
 
 ```bash
-npx create-aiva-app my-app --template github:yourusername/your-template
+npx @getaiva/create-app my-app --template github:yourusername/your-template
 ```

@@ -46,7 +46,7 @@ Customized for pet food and pet supply subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-app --template customer-portal --vertical pet-food
+npx @getaiva/create-app my-app --template customer-portal --vertical pet-food
 ```
 
 ---
@@ -81,7 +81,7 @@ Customized for coffee subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-app --template customer-portal --vertical coffee
+npx @getaiva/create-app my-app --template customer-portal --vertical coffee
 ```
 
 ---
@@ -116,7 +116,7 @@ Customized for wine subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-app --template customer-portal --vertical wine
+npx @getaiva/create-app my-app --template customer-portal --vertical wine
 ```
 
 ---
@@ -152,7 +152,7 @@ Customized for beauty and skincare subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-app --template customer-portal --vertical beauty
+npx @getaiva/create-app my-app --template customer-portal --vertical beauty
 ```
 
 ---
@@ -188,7 +188,7 @@ Customized for vitamin and supplement subscription businesses.
 ### Usage
 
 ```bash
-npx create-aiva-app my-app --template customer-portal --vertical supplements
+npx @getaiva/create-app my-app --template customer-portal --vertical supplements
 ```
 
 ---

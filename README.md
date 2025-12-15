@@ -1,6 +1,6 @@
-# create-aiva-app
+# @getaiva/create-app
 
-[![npm version](https://badge.fury.io/js/create-aiva-app.svg)](https://www.npmjs.com/package/create-aiva-app)
+[![npm version](https://badge.fury.io/js/@getaiva%2Fcreate-app.svg)](https://www.npmjs.com/package/@getaiva/create-app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Scaffold AIVA-powered subscription commerce apps in seconds.**
@@ -10,7 +10,7 @@ Create production-ready Next.js PWAs with AIVA MCP pre-configured. Perfect for c
 ## Quick Start
 
 ```bash
-npx create-aiva-app my-portal
+npx @getaiva/create-app my-portal
 ```
 
 This creates a new directory called `my-portal` with everything you need:
@@ -28,7 +28,7 @@ This creates a new directory called `my-portal` with everything you need:
 ### Interactive Mode
 
 ```bash
-npx create-aiva-app
+npx @getaiva/create-app
 ```
 
 You'll be prompted to:
@@ -40,13 +40,13 @@ You'll be prompted to:
 
 ```bash
 # Customer portal with pet food vertical
-npx create-aiva-app my-portal --template customer-portal --vertical pet-food
+npx @getaiva/create-app my-portal --template customer-portal --vertical pet-food
 
 # Merchant dashboard
-npx create-aiva-app my-dashboard --template merchant-dashboard
+npx @getaiva/create-app my-dashboard --template merchant-dashboard
 
 # Generic customer portal
-npx create-aiva-app my-app --template customer-portal
+npx @getaiva/create-app my-app --template customer-portal
 ```
 
 ## Available Templates
@@ -196,7 +196,7 @@ The app is a standard Next.js application and deploys to any Node.js host:
 
 ## Related Packages
 
-- [`@aiva/mcp`](https://github.com/0800tim/aiva-mcp) - AIVA MCP server
+- [`@getaiva/mcp`](https://github.com/0800tim/aiva-mcp) - AIVA MCP server
 - [Starter Kits](https://appspurt.com/starter-kits) - Browse all templates
 
 ## License

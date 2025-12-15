@@ -1,11 +1,11 @@
-# Getting Started with create-aiva-app
+# Getting Started with @getaiva/create-app
 
 Create production-ready AIVA applications with a single command.
 
 ## Quick Start
 
 ```bash
-npx create-aiva-app my-app
+npx @getaiva/create-app my-app
 ```
 
 Follow the interactive prompts to select your template and options.
@@ -21,13 +21,13 @@ Follow the interactive prompts to select your template and options.
 ### Using npx (Recommended)
 
 ```bash
-npx create-aiva-app my-app
+npx @getaiva/create-app my-app
 ```
 
 ### Global Installation
 
 ```bash
-npm install -g create-aiva-app
+npm install -g @getaiva/create-app
 create-aiva-app my-app
 ```
 
@@ -39,7 +39,7 @@ yarn create aiva-app my-app
 
 ## Interactive Mode
 
-When you run `create-aiva-app`, you'll be prompted to choose:
+When you run @getaiva/create-app, you'll be prompted to choose:
 
 1. **Project name** - Directory name for your project
 2. **Template** - The type of application to create
@@ -51,18 +51,18 @@ Skip the prompts with command line flags:
 
 ```bash
 # Specify template
-npx create-aiva-app my-app --template customer-portal
+npx @getaiva/create-app my-app --template customer-portal
 
 # Specify vertical
-npx create-aiva-app my-app --template customer-portal --vertical pet-food
+npx @getaiva/create-app my-app --template customer-portal --vertical pet-food
 
 # Skip git initialization
-npx create-aiva-app my-app --no-git
+npx @getaiva/create-app my-app --no-git
 
 # Use a specific package manager
-npx create-aiva-app my-app --use-npm
-npx create-aiva-app my-app --use-yarn
-npx create-aiva-app my-app --use-pnpm
+npx @getaiva/create-app my-app --use-npm
+npx @getaiva/create-app my-app --use-yarn
+npx @getaiva/create-app my-app --use-pnpm
 ```
 
 ## After Creation
